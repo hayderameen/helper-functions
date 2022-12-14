@@ -1,8 +1,10 @@
 # helper-functions
 
 ## Relative expiry time in days
+ <code>
  const expireTime = new Date();
     expireTime.setDate(expireTime.getDate() + 0.5);
+ </code>
 
 ## Set cookie value as a json object in vanilla JS
 <code>
