@@ -2,7 +2,7 @@
 
 ## Set cookie value as a json object in vanilla JS
 <code>
-document.cookie = `fomo=${encodeURIComponent(
+document.cookie = `name=${encodeURIComponent(
       JSON.stringify(data)
     )}; expires=${expireTime}; path=${path}`;
 </code>
